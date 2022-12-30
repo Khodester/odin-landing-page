@@ -12,13 +12,16 @@ ul {
 .header-container {
     background-color: #1f2937;
     display: flex;
+    align-items: baseline;
+
 }
 
 .header {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
     margin-left: 1em;
     display: flex;
     flex-grow: 3;
+    
 }
