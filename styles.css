@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
 ul {
     list-style-type: none;
     text-decoration: none;
@@ -71,4 +76,17 @@ button {
     color: #1f2937;
     font-weight: lighter;
     font-style: italic;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    
 }
