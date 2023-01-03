@@ -27,10 +27,11 @@ ul {
 
 .hero-container {
     background-color: #1f2937;
+    padding-left: 1em;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    
+
 
 
 }
@@ -50,4 +51,23 @@ ul {
 button {
     background-color: #3882f6;
     
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
