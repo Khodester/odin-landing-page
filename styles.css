@@ -67,6 +67,10 @@ button {
     color: #1f2937;
 }
 
+img {
+    max-width: 100px;
+}
+
 .quote-container {
     background-color: #e5e7eb;
     display: flex;
