@@ -58,9 +58,9 @@ ul {
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
     height: fit-content;
-    display: flex;
-    justify-content: center;
+
 }
 
 .header-text {
@@ -70,8 +70,11 @@ button {
 }
 
 img {
-    max-width: 100px;
+    min-width: 100px;
+    max-height: 150px;
     display: flex;
+    
+
 }
 
 .quote-container {
@@ -91,6 +94,7 @@ img {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-header-text {
@@ -103,16 +107,19 @@ img {
 
 .cta-container {
     background-color: #3882f6;
+    color: #f9faf8;
     display: flex;
     margin: 10px 300px 10px 300px;
     padding: 1em;
     align-content: center;
     justify-content: center;
-
+    flex-direction: column;
 }
+
 
 .footer-container {
     background-color: #1f2937;
+    color: #f9faf8;
     display: flex;
     justify-content: center;
     margin-top: auto;
